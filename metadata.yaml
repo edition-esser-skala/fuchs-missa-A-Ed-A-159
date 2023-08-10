@@ -1,0 +1,21 @@
+composer:
+  last: Fuchs
+  first: Johann Nepomuk
+title: Missa in D major
+genre: mass
+scoring: S, A, T, B (coro), 2 cl (C), 2 clno (D), timp (D–A), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 159
+    date: 1829-11-01
+    rism: 600037951
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/614.html
+    license: public domain
+    principal: true
+imslp:
+parts:
+  cl1: Clarinetto I in C
+  cl2: Clarinetto II in C
+  ottoni: Clarino I, II in D\\Timpani in D–A
