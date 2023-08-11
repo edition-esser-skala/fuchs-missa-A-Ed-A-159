@@ -7,7 +7,8 @@
 
 
 tempoKyrie = \tempoMarkup "Adagio"
-  tempoKyrieB = \tempoMarkup "Allegro"
+  tempoKyrieB = \tempo 4 = 120
+  % tempoKyrieB = \tempoMarkup "Allegro con fuoco"
 
 
 \include "notes/cl1.ly"
