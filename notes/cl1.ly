@@ -150,3 +150,167 @@ GloriaClarinettoI = {
     d4 d8. d16 d2\fermata \bar "|." %94 finis
   }
 }
+
+CredoClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoCredo
+    d'2.\f
+    fis
+    e4 d e
+    d2.
+    fis %5
+    e4 d e
+    d2 fis4
+    e e cis
+    d2 fis4
+    e e cis %10
+    d fis e
+    d2.
+    e2 d4
+    cis2.
+    e4 e e %15
+    e8 fis cis4 h
+    a2.
+    cis
+    h
+    h4 h h %20
+    cis dis e
+    fis e e
+    d!2 cis4
+    fis e2
+    d4 cis d %25
+    cis cis cis
+    e4. fis8 e d
+    cis4 cis cis
+    h4. cis8 h a
+    gis4 h h %30
+    e cis e
+    e2.
+    d4 d e
+    cis2 d4
+    h2 cis4 %35
+    ais2 h4
+    d8 cis h2
+    a!4 cis cis
+    e2 d4
+    cis cis cis %40
+    e2 d4
+    cis d e
+    fis e r
+    R2.*4 %47
+    r4 d\fE fis
+    e2 e4
+    r d fis %50
+    e2 e4
+    d2.
+    e
+    fis4 d e
+    d d d %55
+    e2.
+    fis4 d e
+    d d e \noBreak
+    d d r\fermata \bar "||"
+    \key a \major \time 4/4 \tempoEtIncarnatus \newSpacingSection
+      R1*2 %61
+    e4\p fis8 e dis4 r
+    fis gis8 fis e4 r
+    r2 r8 e( cis fis)
+    e4 fis e r %65
+    R1
+    e4 fis gis8 fis e fis
+    e4\f fis e dis
+    e2 e4 e
+    R1*2 %71
+    cis!4\fE d8 r g4 f8 r
+    R1*2 \noBreak
+    R1\fermata \bar "||" %75
+    \key d \major \time 3/4 \tempoEtResurrexit \newSpacingSection
+      R2.*2
+    d2\f e4
+    d d r
+    d2 fis4 %80
+    g g r
+    g2 g4
+    fis2 fis4
+    e2 d8 d
+    e4 cis cis %85
+    h2.
+    a4 r r
+    d2 e4
+    fis d a
+    a d e %90
+    fis fis fis
+    e2.
+    fis4 fis fis
+    e fis r
+    R2. %95
+    r4 fis\fE fis
+    fis d4. e8
+    e4 cis4. cis8
+    d4 d e
+    d d r %100
+    a2.
+    cis4 cis r
+    e2.
+    fis4 h, d16 cis h cis
+    d4 fis d %105
+    a2 d4
+    cis cis cis
+    e2.
+    fis4 d r
+    R2.*7 %116
+    r4 r d\f
+    cis4. h8 cis e
+    cis4 cis cis
+    cis2 d4 %120
+    cis h cis
+    h r r
+    R2.*8 %130
+    r4 h h
+    d2 g4
+    fis fis fis
+    d2.
+    d4 e fis %135
+    g d d
+    d2.
+    c4 c c
+    d2 d8 c
+    h d4 dis8 e e %140
+    d4 cis! d
+    cis e fis
+    fis e r
+    d2 e4
+    d fis e %145
+    d2 e4
+    d fis e
+    d d r
+    R2.*4 %152
+    d4\fE r d
+    e e e
+    fis d a %155
+    e'2.
+    d4 d d
+    d2 cis4
+    fis cis d
+    cis e e %160
+    e2.
+    e4 e e
+    e2.
+    d4 r r
+    R2.*2 %166
+    d4 r fis
+    e e e
+    fis2 fis4
+    fis fis fis %170
+    g2 g4
+    g4. e8 fis4
+    e d e
+    d r fis
+    e e e %175
+    d r fis
+    e d e
+    d2 d4
+    d r r\fermata \bar "|." %179 finis
+  }
+}

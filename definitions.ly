@@ -6,9 +6,15 @@
 \include "ees_articulate.ly"
 
 
+mezzovoce = \markup \remark "mezzo voce"
+
+
 tempoKyrie = \tempoMarkup "Adagio"
   tempoKyrieB = \tempoMarkup "Allegro con fuoco"
 tempoGloria = \tempoMarkup "Allegro"
+tempoCredo = \tempoMarkup "Allegro vivace"
+  tempoEtIncarnatus = \tempoMarkup "Adagio"
+  tempoEtResurrexit = \tempoMarkup "Allegro"
 
 
 \include "notes/cl1.ly"

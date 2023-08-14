@@ -122,3 +122,111 @@ GloriaTimpani = {
     c4 r r2\fermata \bar "|." %94 finis
   }
 }
+
+CredoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoCredo
+    c4\f r r
+    c c r
+    g g g
+    c r r
+    c c r %5
+    g g g
+    c r r
+    g r g8 g
+    c4 c r
+    g r g8 g %10
+    c4 r r
+    R2.*2
+    g4 g r
+    R2.*2 %16
+    g4 g r
+    g g r
+    R2.*5 %23
+    c4 g r
+    R2. %25
+    g4 g r
+    R2.*11 %37
+    g4 r r
+    R2.
+    g4 r r %40
+    R2.
+    r4 g g
+    c g r
+    R2.*4 %47
+    c4\fE r c8 c
+    g4 g r
+    c r c8 c %50
+    g4 g r
+    c c r
+    R2.
+    g4 g g8 g
+    c4 c r %55
+    R2.-\critnote
+    g4 g g
+    c r g
+    c c r\fermata \bar "||"
+    \time 4/4 \tempoEtIncarnatus \newSpacingSection
+      R1*15 \noBreak %74
+    R1\fermata \bar "||" %75
+    \time 3/4 \tempoEtResurrexit \newSpacingSection R2.*6 %81
+    g4\fE g r
+    c c r
+    R2.*4 %87
+    c4 r g8 g
+    c4 c r
+    c r g %90
+    c c r
+    c c r
+    c r c8 c
+    g4 c r
+    R2.*3 %97
+    g4\fE g r
+    c g g
+    c c r %100
+    c r c8 c
+    g4 g r
+    g r g8 g
+    c4 r g
+    c r r %105
+    c r c8 c
+    g4 g r
+    g r g8 g
+    c4 c r
+    R2.*7 %116
+    r4 r c\fE
+    g r r
+    g g r
+    R2.*22 %141
+    g4 r c8 c
+    g4 g r
+    R2.
+    c4 c g8 g %145
+    c4 c r
+    c c g8 g
+    c4 c r
+    R2.*4 %152
+    c4\fE r c8 c
+    g4 g g8 g
+    c4 r r %155
+    R2.*4
+    g4 r r %160
+    R2.
+    g4 r r
+    R2.*4 %166
+    c4 r c8 c
+    g4 r g
+    c r c8 c
+    c4 c c %170
+    c c r
+    g g8 g c4
+    r g g
+    c r c
+    g g g %175
+    c r c8 c
+    g4 c g
+    c r c8 c
+    c4 r r\fermata \bar "|." %179 finis
+  }
+}

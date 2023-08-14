@@ -141,3 +141,151 @@ GloriaClarinoI = {
     c4 c8. c16 c2\fermata \bar "|." %94 finis
   }
 }
+
+CredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCredo
+    c'2\f r4
+    c c r
+    \pa g g g \pd
+    c2 r4
+    c c r %5
+    \pa g g g \pd
+    c r r
+    d2 d4
+    c c r
+    d2 d4 %10
+    c r r
+    c2.
+    R
+    d4 d r
+    \pa d d \pd r %15
+    r \pa d d \pd
+    d d r
+    d d r
+    R2.*5 %23
+    c4 \pao g r
+    r \pa d' d \pd %25
+    d2 r4
+    \pao d r \pao d
+    d2 d4
+    R2.*2 %30
+    r4 \pa g, g \pd
+    r e' e
+    e r r
+    R2.*4 %37
+    g,4 r r
+    R2.
+    g4 r r %40
+    R2.
+    r4 g g
+    g g r
+    R2.*4 %47
+    c4\fE r c
+    d d r
+    c2 c4 %50
+    d d d
+    c c r
+    c2.
+    c4 c d
+    c c c %55
+    c2.
+    c4 c d
+    c c d \noBreak
+    c c r\fermata \bar "||"
+    \time 4/4 \tempoEtIncarnatus \newSpacingSection
+      R1*15 \noBreak %74
+    R1\fermata \bar "||" %75
+    \time 3/4 \tempoEtResurrexit \newSpacingSection R2.*2
+    e2\f e8 e
+    e4 e r
+    c2 c8 c %80
+    c4 c r
+    d d r
+    c c r
+    R2.*4 %87
+    c2 d4
+    c c c
+    c c d %90
+    c c c
+    c2 c8 c
+    c2 c8 c
+    d4 c r
+    R2. %95
+    r4 e\fE e
+    e r r
+    d d r
+    c c d
+    c c r %100
+    c2 c4
+    \pa g g \pd r
+    d'2 d8 d
+    c4 r d
+    c c c %105
+    c2 c4
+    \pa g g \pd r
+    d'2 d4
+    c c r
+    c\p r r %110
+    c r r
+    c r r
+    c r r
+    R2.*3 %116
+    r4 r c\f
+    d4. \pa d8 d d \pd
+    d4 d d
+    e2 e4 %120
+    r e e
+    e r r
+    e r r
+    e r r
+    e r r %125
+    R2.*5 %130
+    r4 c c
+    c2.
+    c4 c r
+    c2.
+    c4 r c %135
+    c c c
+    c2.
+    c4 c c
+    c2.
+    c4 r r %140
+    R2.
+    d4 d c
+    \pa g g \pd r
+    R2.
+    c4 c d %145
+    c c r
+    c c d8 d
+    c4 c r
+    R2.*4 %152
+    c4\fE r c
+    \pa g g \pd d'
+    c c r %155
+    e e e
+    e e r
+    R2.
+    r4 \pa d d \pd
+    d2. %160
+    \pa d4 d d \pd
+    d2.
+    e4 e e
+    e r r
+    R2.*2 %166
+    c4 r c
+    d d d
+    c r c
+    c c c %170
+    c2.
+    d4. d8 c4
+    r c d
+    c r c
+    d d d %175
+    c r c
+    d c d
+    c r c
+    c r r\fermata \bar "|." %179 finis
+  }
+}

@@ -141,3 +141,151 @@ GloriaClarinoII = {
     e4 c8. c16 c2\fermata \bar "|." %94 finis
   }
 }
+
+CredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCredo
+    e2\f r4
+    c c r
+    g' g g
+    e2 r4
+    e e r %5
+    g g g
+    e r r
+    g2 g4
+    e e r
+    g2 g4 %10
+    e r r
+    c2.
+    R
+    g'4 g r
+    d' d r %15
+    r d d
+    g, g r
+    g g r
+    R2.*5 %23
+    e4 g r
+    r d' d %25
+    g,2 r4
+    d' r d
+    g,2 g4
+    R2.*2 %30
+    r4 g g
+    r e e
+    e r r
+    R2.*4 %37
+    g,4 r r
+    R2.
+    g4 r r %40
+    R2.
+    r4 g g
+    g g r
+    R2.*4 %47
+    e'4\fE r e
+    g g r
+    e2 e4 %50
+    g g g
+    c, c r
+    c2.
+    e4 e g
+    c, c c %55
+    c2.
+    e4 e g
+    e e g \noBreak
+    e e r\fermata \bar "||"
+    \time 4/4 \tempoEtIncarnatus \newSpacingSection
+      R1*15 \noBreak %74
+    R1\fermata \bar "||" %75
+    \time 3/4 \tempoEtResurrexit \newSpacingSection R2.*2
+    e2\f e8 e
+    e4 e r
+    c2 c8 c %80
+    c4 c r
+    g' g r
+    e e r
+    R2.*4 %87
+    e2 g4
+    e e e
+    e e g %90
+    e c c
+    c2 c8 c
+    e2 e8 e
+    g4 e r
+    R2. %95
+    r4 e\fE e
+    e r r
+    g g r
+    c, e g
+    e e r %100
+    e2 e4
+    g g r
+    g2 g8 g
+    e4 r g
+    e e e %105
+    e2 e4
+    g g r
+    g2 g4
+    e e r
+    c\p r r %110
+    c r r
+    c r r
+    c r r
+    R2.*3 %116
+    r4 r e\f
+    g4. d'8 d d
+    g,4 g g
+    e2 e4 %120
+    r e e
+    e r r
+    e r r
+    e r r
+    e r r %125
+    R2.*5 %130
+    r4 c c
+    c2.
+    c4 c r
+    c2.
+    c4 r c %135
+    c c c
+    c2.
+    c4 c c
+    c2.
+    c4 r r %140
+    R2.
+    g'4 g e
+    g g r
+    R2.
+    e4 e g %145
+    e e r
+    e e g8 g
+    e4 e r
+    R2.*4 %152
+    e4\fE r e
+    g g g
+    e e r %155
+    e e e
+    e e r
+    R2.
+    r4 d' d
+    g,2. %160
+    d'4 d d
+    g,2.
+    e4 e e
+    e r r
+    R2.*2 %166
+    e4 r e
+    g g g
+    e r e
+    c c c %170
+    c2.
+    g'4. g8 e4
+    r e g
+    e r e
+    g g g %175
+    e r e
+    g e g
+    e r e
+    e r r\fermata \bar "|." %179 finis
+  }
+}
