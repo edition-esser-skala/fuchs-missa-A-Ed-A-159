@@ -74,3 +74,79 @@ KyrieClarinettoII = {
     d2.\fermata \bar "|." %77 finis
   }
 }
+
+GloriaClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoGloria
+    fis4\f a d d
+    e,8 fis a g fis a fis4
+    R1*3 %5
+    fis4\fE r r8 d e g
+    fis4 r r8 d e g
+    fis a fis4 r2
+    R1
+    r8-\critnote ais\fE ais ais fis4 h %10
+    a a8 a a4 h
+    a r r2
+    R1*4 %16
+    h2\fE a
+    gis a4 h
+    a gis8 gis a4 gis8 gis
+    a2 a4 gis %20
+    a r r2
+    a4 gis8 a h2
+    a8 cis d4 cis8 cis e,4
+    R1*2 %25
+    h'2\fE cis
+    h4 h8 h a!4 a8 cis
+    d4 r a fis
+    g e fis h
+    a4. cis8 a4 fis8 g %30
+    fis4 r r fis8 g
+    fis2 fis4. fis8
+    g2 g4. g8
+    fis4 a2 gis4
+    a8 a a4 r2 %35
+    R1*3
+    r8 a4\fE h8 cis d e g,
+    fis2 fis4. fis8 %40
+    g2 g4. g8
+    fis4 a8 g fis4 g
+    g fis r2
+    R1
+    h4\p h8 h c4 a8 a %45
+    g4 h8\f h h4. h8
+    a4. g8 fis4. fis8
+    h2 a4 r
+    R1*5 %53
+    fis4\fE a d d
+    e,8 fis a g fis4 r %55
+    cis'2 d4 r
+    gis,2 a4. h8
+    a4 a8. h32 a gis4 a
+    a2 a4 h
+    a r r a8 h %60
+    a4 r r2
+    R1*10 %71
+    e4 e8 e fis4 a
+    h a a8 gis16 fis gis4
+    a8. h16 cis4 r2
+    R1*3 %77
+    r8 d, d d d4 r
+    R1*3 %81
+    e4-\critnote fis8 a fis4 e
+    e-\critnote r r2
+    R1
+    r8 fis a g fis4 gis %85
+    a8 g fis4 g g8 g
+    g4 fis r2
+    R1
+    r2 r4 e8 e
+    fis4 r r e8 e %90
+    fis2 e
+    fis4 d' d cis
+    d cis8 r d r cis r
+    d4 d,8. d16 d2\fermata \bar "|." %94 finis
+  }
+}
