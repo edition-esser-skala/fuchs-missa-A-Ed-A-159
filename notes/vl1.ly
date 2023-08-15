@@ -368,3 +368,46 @@ CredoViolinoI = {
     d, r r\fermata \bar "|." %179 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoSanctus
+    fis2(\p a4 d)
+    e \appoggiatura h'32 a16( gis a h) a8 a( e cis)
+    a2.( g'4)
+    fis \appoggiatura h32 a16( gis a h) a8 a fis fis
+    d4 \appoggiatura e32 d16( cis d e) d8 d d' d %5
+    e,4 \appoggiatura fis32 e16( dis e fis) g8 g h h
+    a,4 \tuplet 3/2 4 { a'8 fis d } e2\trill
+    d4 \appoggiatura g32 fis16(\f e fis a) \appoggiatura e32 d16( cis d fis) a,8 a
+    gis4 \appoggiatura cis'32 h16( ais h d) \appoggiatura a32 gis16( fis gis h) d,8 d
+    cis4 \appoggiatura h'32 a16( gis a cis) \appoggiatura fis,32 e16( dis e a) cis,8 cis %10
+    h4 h8. h16 ais8 g'4\fz ais,8
+    h4 h8. h16 cis8 fis4\fz e8
+    d( fis4)\fz d16 h a!4( \grace cis8 h4)
+    a4 \appoggiatura h'32 a16(\p gis a cis) e,8 e e e
+    e a \tuplet 3/2 4 { fis8[ d h] } a4( \grace cis8 h4) %15
+    a \appoggiatura d32 cis16( h cis e) a,4 a \noBreak
+    a2 r\fermata \bar "||"
+    \time 4/4 \tempoPleni d,4\f fis8 a d fis a d \noBreak
+    e,4 g8 h cis,16( d e d cis h a g)
+    fis8 a'4\fz fis8 d4 \once \slurDashed d8( e16 fis) %20
+    e8 a4\fz g8 e4 e8( fis16 g)
+    fis8 fis4\fz e8 d4 h'8 d,
+    cis4 a'8 cis, h8. cis16 h cis h cis
+    h( e gis h) a8 cis, h16 h h h h h h h
+    a8 cis16 e a8 gis fis gis a cis %25
+    cis,4 h8. e16 a,4 r8 a\p
+    cis d e cis d4 fis8( a)
+    a, a a a a a' fis d'
+    h cis d h a4 fis8 d\f
+    e e e16( fis g e) fis8 fis a d\p %30
+    h cis d h a fis a\f a~
+    a fis g g~ g e fis fis
+    e16( h g' e) d8 cis d a d fis
+    a2 fis8 a, d fis
+    a2 fis4 d' %35
+    d, r r2\fermata \bar "|." %36 finis
+  }
+}

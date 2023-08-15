@@ -314,3 +314,46 @@ CredoClarinettoII = {
     fis r r\fermata \bar "|." %179 finis
   }
 }
+
+SanctusClarinettoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoSanctus
+    d2\p fis
+    a4 r r2
+    g1
+    fis4 r r2
+    a2. a4 %5
+    h2 g4 e
+    fis2 g
+    fis4 a2\f a4
+    h h2 h4
+    a e2 e4 %10
+    fis2 g
+    fis fis
+    fis4. d8 cis4 d-\critnote
+    cis r a'(\p h)
+    a r r2 %15
+    R1 \noBreak
+    R\fermata \bar "||"
+    \time 4/4 \tempoPleni a2\f fis4 a \noBreak
+    e2 e
+    fis4 r fis a %20
+    a1
+    a4. ais8 h2
+    a r
+    r4 r8 a a4 gis
+    a r r2 %25
+    a4 gis a8 a,\p a a
+    a2. a8 a'
+    e fis g! e fis4 fis
+    d2. d8 d\f
+    d'4 cis d d %30
+    d2.\pE a4\fE
+    a g2 fis4
+    g fis8 e fis4 fis8 d'
+    cis2 d4 d8 d
+    cis2 d4 a %35
+    fis r r2\fermata \bar "|." %36 finis
+  }
+}

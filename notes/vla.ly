@@ -367,3 +367,47 @@ CredoViola = {
     d r r\fermata \bar "|." %179 finis
   }
 }
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key d \major \time 2/2 \tempoSanctus
+    a1\p
+    a4 r r2
+    a1
+    a4 r r2
+    d4 d d d %5
+    h h h h
+    d d cis cis
+    d a8\f a a a d d
+    e4 h8 h h h e e
+    e e e e e e e e %10
+    d4 d8. d16 cis2\fzE
+    d4 d8. d16 cis2\fzE
+    d4 fis e gis,
+    a r e'2\p
+    e4 fis e gis, %15
+    a r e e \noBreak
+    e2 r\fermata \bar "||"
+    \time 4/4 \tempoPleni
+      fis8\f fis fis fis fis fis a' a \noBreak
+    h h h h a a a a
+    a4 r a4. a8 %20
+    a4 r a4. a8
+    a fis4 fis8 fis4 e~
+    e e fis h,8 h
+    h h cis e fis4 e8. e16
+    cis4 r8 e d4 cis8 e %25
+    e4( d cis) r
+    e8\p r e r d4. d8
+    cis d e cis d4 a
+    d2. d8 d\f
+    h' h a a a4 a8 r %30
+    d,2\p d4 fis8\f a
+    h4. h8 a4. a8
+    g h a a a4 a8 a
+    a2 a4 a8 a
+    a2 a4 a %35
+    a r r2\fermata \bar "|." %36 finis
+  }
+}

@@ -175,8 +175,93 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Credo"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "cl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \CredoClarinettoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \CredoClarinettoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           % \transpose c d
+  %           \partCombine #'(0 . 10) \CredoClarinoI \CredoClarinoII
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = "timp"
+  %         % \transpose c d
+  %         \CredoTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \CredoViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \CredoViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \CredoViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \CredoSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \CredoSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \CredoAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \CredoAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \CredoTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \CredoTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \CredoBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \CredoBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \CredoOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \CredoBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 } % 40 – 120
+  %   }
+  % }
   \bookpart {
-    \section "3" "Credo"
+    \section "4" "Sanctus"
     \addTocEntry
     \score { %\articulate
       <<
@@ -185,11 +270,11 @@
             \set GrandStaff.instrumentName = "cl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \CredoClarinettoI
+              \SanctusClarinettoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \CredoClarinettoII
+              \SanctusClarinettoII
             }
           >>
         >>
@@ -197,67 +282,67 @@
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             % \transpose c d
-            \partCombine #'(0 . 10) \CredoClarinoI \CredoClarinoII
+            \partCombine #'(0 . 10) \SanctusClarinoI \SanctusClarinoII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
           % \transpose c d
-          \CredoTimpani
+          \SanctusTimpani
         }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \CredoViolinoI
+              \SanctusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \CredoViolinoII
+              \SanctusViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \CredoViola
+            \SanctusViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \CredoSoprano }
+            \new Voice = "Soprano" { \dynamicUp \SanctusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \CredoSopranoLyrics
+          \new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \CredoAlto }
+            \new Voice = "Alto" { \dynamicUp \SanctusAlto }
           }
-          \new Lyrics \lyricsto Alto \CredoAltoLyrics
+          \new Lyrics \lyricsto Alto \SanctusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \CredoTenore }
+            \new Voice = "Tenore" { \dynamicUp \SanctusTenore }
           }
-          \new Lyrics \lyricsto Tenore \CredoTenoreLyrics
+          \new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \CredoBasso }
+            \new Voice = "Basso" { \dynamicUp \SanctusBasso }
           }
-          \new Lyrics \lyricsto Basso \CredoBassoLyrics
+          \new Lyrics \lyricsto Basso \SanctusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \CredoOrgano
+            \SanctusOrgano
           }
         >>
-        \new FiguredBass { \CredoBassFigures }
+        \new FiguredBass { \SanctusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 } % 40 – 120
+      \midi { \tempo 4 = 80 } % 120
     }
   }
 }
