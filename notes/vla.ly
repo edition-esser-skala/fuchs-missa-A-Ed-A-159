@@ -464,3 +464,161 @@ BenedictusViola = {
     d2 r\fermata \bar "|." %46 finis
   }
 }
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 3/4 \tempoAgnus
+    a2.\f
+    a4. a'8 a a
+    e4. e8 e e
+    f4. a8 a a
+    a,2\p a4 %5
+    a a r
+    <c! f>8 <c f> q q q q
+    <d f> q q q q q
+    <c e> q q q <e g> q
+    c4 c d8 e %10
+    f c4\f c c8
+    \once \slurDashed d( f) c4( e)
+    f r r
+    d\pE c e
+    f\f c c %15
+    c4. c8 c c
+    des4. des8 des des
+    c4. c8 c c
+    c2~\p c8 c
+    c4 c r %20
+    e8 e e e e e
+    d d d d d d
+    c c c c c c
+    d b4 b b8
+    b b'\fE a b f es %25
+    f8. es16 d4 a
+    b r b8(\pE h)
+    g c f4 a,
+    b\fE d es
+    d4. f8 f f %30
+    ges4. ges8 ges ges
+    f4. f8 f f
+    f2\p f8 f
+    f4 f r
+    <d c>8 q q q q q %35
+    <d b> q q q q q
+    e! e e e a, a
+    \mvTr a8.\f-\critnote cis16 d4 f8 a
+    a,4. a'8 a a
+    a d d d d d %40
+    b4 b, h
+    a2.
+    a4 cis e \noBreak
+    a,2 r4\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      d2\p \noBreak %45
+    d4( a)
+    h a8 a
+    a2
+    e'
+    d %50
+    a
+    a
+    fis'4 cis
+    d2
+    e %55
+    e
+    e
+    d
+    h4. gis'8
+    \slurDashed gis4( a) %60
+    e2
+    fis
+    e4( gis,) \slurSolid
+    a \once \tieDashed a'~\f
+    a8 g! fis e %65
+    d4 r
+    a r
+    a'2
+    a4 a
+    a g %70
+    h a8 a
+    a4 h
+    e, d8 h'
+    h4 r8 gis
+    a4 e %75
+    e r8 gis
+    a cis,4\sfE d8
+    fis4 cis
+    d8 d4\sfE dis8^\critnote
+    e2 %80
+    e4 a8 a
+    a a4\sf a8
+    h2
+    h8 h4\sf b8
+    a4. cis8 %85
+    d a4\sf e'8
+    e,4 e'8 e
+    e d4\sf e8
+    e4 e8 e
+    e, e e e %90
+    eis eis eis eis
+    fis fis a a
+    e! e e e
+    d d fis fis
+    cis cis cis cis %95
+    d d d' d
+    e, e cis' cis
+    fis, fis e d
+    cis4 r
+    a8 a' a a %100
+    a4 a
+    a,8 a' a a
+    a cis, cis cis
+    e e e e
+    fis fis fis fis %105
+    gis gis h h
+    e, e e e
+    fis fis fis fis
+    fis fis fis fis
+    g! g h, h %110
+    cis cis e e
+    fis a a a
+    a a a4
+    a a8 a
+    a a a4 %115
+    a4. d8
+    d, d4\sfE d8
+    d d4 d8
+    d'16 d d d d d d d
+    g, g g g g g g g %120
+    a a a a a a a a
+    h! h h h a8 g
+    fis4 r
+    R2
+    e\p %125
+    d
+    a8 r a r
+    a4 r
+    e'2
+    d %130
+    a8 r a r
+    a2
+    e'~
+    e
+    d~ %135
+    d
+    a~
+    a4 h
+    a2
+    a8 fis'\f fis a %140
+    h h h h
+    h h h g
+    a4 a
+    a8 fis fis a
+    h h h h %145
+    h h h h
+    a a a a
+    a4 a
+    a a
+    a r\fermata \bar "|." %150 finis
+  }
+}

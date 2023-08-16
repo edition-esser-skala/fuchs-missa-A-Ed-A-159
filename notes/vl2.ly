@@ -466,3 +466,161 @@ BenedictusViolinoII = {
     <g g,>2 r\fermata \bar "|." %46 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \tempoAgnus
+    <f a>2\f <g a>4
+    <f a>4. q8 q q
+    <g b>4. q8 q q
+    <f a>4. q8 q q
+    f4\p e8( f g f) %5
+    \once \slurDashed f4( e) r
+    a8 a a a a a
+    g g g g g g
+    b b b b b b
+    a \once \slurDashed f( e f f g) %10
+    f a(\f b a) g4
+    \once \slurDashed f8( d) a4( b)
+    a r c8\pE f
+    d b a4 b
+    a\f a' b %15
+    a4. <f a>8 q q
+    <g b>4. q8 q q
+    <f a>4. q8 q q
+    f4\pE \once \slurDashed e8( f g f)
+    f4( e) r %20
+    <g a,>8 q q q q q
+    <f a,> q q q q q
+    f f f f f f
+    f b( a b g a)
+    b \once \slurDashed d(\fE es d) c4 %25
+    \once \slurDashed b8( g) d4( es)
+    d r f\pE
+    g8. es16 d4( es)
+    d2\fE c4
+    d4. d8 d d %30
+    <c es>4. q8 q q
+    d4. d8 d d
+    b'4\p \once \slurDashed a8( b c b)
+    \once \slurDashed b4( a) r
+    a2. %35
+    b8. a16 g4 g
+    a2 a4
+    a8.\f g16 f!4 f8 f
+    e'8. d16 cis4 cis8 cis
+    d a a a a a %40
+    g2 f4
+    f( e! f)
+    e cis cis \noBreak
+    cis2 r4\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      fis4.\p a8 \noBreak %45
+    g4( fis)
+    e4. d8
+    d4( cis)
+    cis2
+    d %50
+    e4. e8
+    e4 d
+    ais fis'
+    fis4.( d8)
+    h'2 %55
+    \slurDashed h4( a)
+    a2
+    fis
+    gis4.( h8)
+    h4( a) %60
+    a2
+    fis4.( d8) \slurSolid
+    cis4( d)
+    cis a'~\f
+    a8 g! fis e %65
+    d16( e fis g a h cis d)
+    cis( d e fis g e a g)
+    fis4 fis
+    e a16( g fis e)
+    d2 %70
+    d4 cis8 cis
+    d4 d
+    e fis8 fis
+    e fis16( e) fis( e d h)
+    a4 cis %75
+    h16( e fis e) fis( e d h)
+    cis8 e,4\sf eis8
+    fis2
+    fis8 fis4\sf fis8
+    gis4 h %80
+    a4. cis8
+    d fis4\sf e8
+    dis4. dis8
+    e e4\sf d8
+    cis4. e8 %85
+    d d4\sf d8
+    e4 h8 d
+    cis d4\sf d8
+    e4 e8 d'
+    cis16( h a gis a h cis a) %90
+    h4 cis,
+    a'16( gis fis eis? fis gis a fis)
+    g4 a,
+    fis'16( e! d cis d e fis d)
+    e4 fis, %95
+    \appoggiatura e'16 \once \slurDashed d8( cis16 d) h'8 r
+    \appoggiatura d,16 \once \slurDashed cis8( h16 cis) a'8 r
+    h, a' h, gis'
+    a,( cis16 e) a8 a,
+    fis'16( e d e) fis8 d %100
+    cis cis4 cis8
+    fis16( e d e) fis8 d
+    cis a'4 e8
+    cis e4 cis8
+    h fis'4 a,8 %105
+    gis h'4 d,8
+    cis e4 h8
+    ais fis'4 e8
+    d16( fis g fis g fis d h)
+    g4 r %110
+    r16 e'( fis e fis e cis a)
+    fis4 r
+    r e'
+    d8 h'16( a h a fis d)
+    cis4 e %115
+    fis4. a,8
+    g g4\sf a8
+    g g4\sf a8
+    g16 g g g g g g g
+    d' d d d d d d d %120
+    e e e e d d d d
+    d d d d cis cis cis cis
+    d4 r
+    R2
+    a~\p %125
+    a
+    e8 r e r
+    fis4 r
+    a2~
+    a %130
+    e8 r e r
+    fis2
+    h
+    cis
+    a %135
+    h
+    e,4. e8
+    fis4 g
+    fis( e)
+    fis8 a'4\f fis8 %140
+    d d'4 fis,8
+    e4 g8 h
+    d,4 cis
+    d8 a'4 fis8
+    d d'4 fis,8 %145
+    e4 h8 g
+    fis4 e
+    fis <a e'>
+    <a fis'> <a e'>
+    <a fis'> r\fermata \bar "|." %150 finis
+  }
+}

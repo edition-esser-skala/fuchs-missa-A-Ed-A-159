@@ -403,3 +403,98 @@ BenedictusClarinettoI = {
     R1\fermata \bar "|." %46 finis
   }
 }
+
+AgnusClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \tempoAgnus
+    d'2\f e4
+    d2.
+    e
+    d
+    R2.*10 %14
+    f2\fE e4 %15
+    f2.
+    e
+    f
+    R2.*18 %36
+    r4 e\fE e
+    f8. e16 d4 d
+    e8. d16 cis4 cis
+    d2 f4 %40
+    R2.
+    d4 cis d
+    cis a a \noBreak
+    a2 r4\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      R2*21 \noBreak %65
+    d2\f
+    e
+    fis
+    cis4 e
+    fis g %70
+    e e8 e
+    fis4 e
+    e fis
+    e r8 d
+    cis2 %75
+    h4 r8 h
+    cis4 r
+    cis fis
+    d r
+    h e %80
+    cis d8 e
+    fis4 r
+    dis2
+    e4 r
+    cis2 %85
+    d!8 fis4\sfE d8
+    e cis d4
+    cis8 fis4\sfE e8
+    e2
+    e4 cis %90
+    R2*2
+    g'!2
+    R
+    e %95
+    d
+    cis
+    h
+    cis4 e8 e
+    fis2 %100
+    e4 e8 e
+    fis2
+    e4 e
+    cis2
+    h %105
+    h4 d
+    cis2
+    cis4 fis
+    d r
+    R2*2 %111
+    fis4 d
+    cis e
+    fis r
+    cis e %115
+    fis fis
+    g8 d4\sfE fis8
+    g d4\sfE fis8
+    g4 d
+    d d %120
+    e fis
+    e2
+    d4 r
+    R2*16 %139
+    d2\f %140
+    d4 d
+    e2
+    d4 e
+    fis fis8 fis
+    d2 %145
+    e
+    d4 cis
+    d cis
+    d cis
+    d^\critnote r\fermata \bar "|." %150 finis
+  }
+}

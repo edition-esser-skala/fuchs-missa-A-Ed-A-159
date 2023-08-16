@@ -464,3 +464,161 @@ BenedictusViolinoI = {
     <g, g,>2 r\fermata \bar "|." %46 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \tempoAgnus
+    d'4\f f e8.( cis16)
+    d8.( f32 a) d8 d, d d
+    cis8.( e32 g) b8 cis, cis cis
+    d8.( f32 a) d8 d, d d
+    d4\p cis8( d e d) %5
+    \once \slurDashed d4( cis) r
+    R2.
+    d2 g8.( f16)
+    e8. f16 g4 r
+    r8 \once \slurDashed a,( g a c b) %10
+    a[ f'(\f e f)] c8. b16
+    a8( d) f,4( g)
+    f8 a'16(\p g) g( f) f( e) e( d) d( c)
+    c32( b a g) \tuplet 3/2 8 { d'16[ b g] } f4( \grace a8 g4)
+    f8.\f a16 c4 e8. g16 %15
+    f8. a16 c8 f, f f
+    e8.( g32 b) des8 e, e e
+    f8. a16 c8 a f c
+    a4\p g8( a b a)
+    \once \slurDashed a4( g) r %20
+    R2.
+    d'2 f8.( d16)
+    c!8. d16 es4 r
+    r8 d( c d f es)
+    d f4\f f f8 %25
+    f es16 c b4( a)
+    b8 d'16(\p c) c( b) b( a) a( g) g( f)
+    f32([ es d c)] \tuplet 3/2 8 { g'16 es c } b4( \grace d8 c4)
+    b8.(\f d16) f4 a,
+    b8.( d32 f) b8 b d b %30
+    a,8.( c32 es) a8 a c a
+    b,8.( d32 f) b8 d b16( f d b)
+    d4\p c8( d es d)
+    \once \slurDashed d4( c) r
+    R2. %35
+    d
+    g8. f16 e!4 e
+    f8.\f e16 d4 d8 d
+    g8. f16 e4 e8 e
+    f f f f f f %40
+    f4 es d
+    d( cis d)
+    cis a a \noBreak
+    a2 r4\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      a4\p d8( cis) \noBreak %45
+    h4( a)
+    g a8 fis
+    fis4( e)
+    a \appoggiatura cis16 h8( a)
+    a4 d8 fis %50
+    g,4 a8 e
+    g4 fis
+    fis ais
+    h( d8 fis)
+    e( h e d) %55
+    d4( cis)
+    e( a8 cis,)
+    h4 h'8( a)
+    gis( h e, d)
+    d4( cis) %60
+    e( a8 cis,)
+    h4( d8 fis)
+    a,4( \grace cis8 h4)
+    a a~\f
+    a8 g! fis e %65
+    d16( e fis g a h cis d)
+    cis( d e fis g e a g)
+    fis4 d'
+    cis16( h a h a g fis e)
+    fis4 g %70
+    e e8 e
+    fis4^\critnote gis
+    a8.( h32 cis) h8 a
+    gis16( e fis e) fis( e d h)
+    cis4 a' %75
+    gis16( e fis e) fis( e d h)
+    cis8 cis4\sf h8
+    ais cis fis e
+    d h4\sf a8
+    gis h e d %80
+    cis4 d8 e
+    fis a4\sfE a8~
+    a fis h a
+    g! g4\sfE g8~
+    g e a g %85
+    fis fis4\sf gis8
+    a cis d, h'
+    a fis4\sf gis8
+    a cis e, d'
+    cis16( h a gis a h cis a) %90
+    h4 cis,
+    a'16( gis fis eis? fis gis a fis)
+    g4 a,
+    fis'16( e! d cis d e fis d)
+    e4 fis, %95
+    \appoggiatura e'16 d8( cis16 d) h'8 r
+    \appoggiatura d,16 cis8( h16 cis) a'8 r
+    h, a' h, gis'
+    a,( cis16 e) a8 a,
+    a'16( gis fis gis) a8 fis %100
+    e a4 e8
+    a16( gis fis gis) a8 fis
+    e a4 e8
+    cis e4 cis8
+    h fis'4 a,8 %105
+    gis h'4 d,8
+    cis e4 h8
+    ais fis'4 e8
+    d4 r
+    r16 h'( cis h cis h g e) %110
+    cis4 r
+    r16 a'( h a h a fis d)
+    cis8 e g4
+    fis16( a h a h a fis d)
+    cis8 e g4 %115
+    fis8 a d fis,
+    g d4\sf fis8
+    g d4\sf fis8
+    g16 g g g g g g g
+    g g g g g g g g %120
+    g g g g fis fis fis fis
+    e e e e e e e e
+    d8 a'4\fp fis8
+    d( a fis' d)
+    cis4( e8) a,-! %125
+    d4( fis8) a,-!
+    \appoggiatura a16 g8( fis g a)
+    fis a'( fis d)
+    \slurDashed cis4( e8) a,-\parenthesize-!
+    d4( fis8) \slurSolid a,-\parenthesize-! %130
+    \appoggiatura a16 g8( fis g a)
+    fis a d4
+    \appoggiatura e16 d8( cis d e)
+    cis e a4
+    \appoggiatura d,16 c8( h c d) %135
+    h d g4
+    g,4. g8
+    fis d' h e
+    d4( cis!)
+    d8 a'4\f fis8 %140
+    d d'4 fis,8
+    e4 g8 h
+    d,4 e
+    fis8 a4 fis8
+    d d'4 fis,8 %145
+    e4 g8 h
+    d,4 cis
+    d <cis' e, a,>
+    <d fis, a,> <cis e, a,>
+    <d fis, a,> r\fermata \bar "|." %150 finis
+  }
+}

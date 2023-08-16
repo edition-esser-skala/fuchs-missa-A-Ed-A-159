@@ -403,3 +403,98 @@ BenedictusClarinettoII = {
     R1\fermata \bar "|." %46 finis
   }
 }
+
+AgnusClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \tempoAgnus
+    f2\fE g4
+    f2.
+    g
+    f
+    R2.*10 %14
+    a2\fE g4 %15
+    a2.
+    g
+    a
+    R2.*18 %36
+    r4 a\fE a
+    a8. g16 f4 f
+    g8. f16 e4 e
+    f2 a4 %40
+    R2.
+    f4 e f
+    e cis cis \noBreak
+    cis2 r4\fermata \bar "||"
+    \twofourtime \key d \major \time 2/4 \tempoDona \newSpacingSection
+      R2*21 %65
+    d'2\fE
+    cis
+    d4 a
+    g cis
+    d2~ %70
+    d4 cis8 cis
+    d4 d
+    e h8 a
+    gis4 r8 h
+    a2 %75
+    gis4 r8 gis
+    a4 r
+    ais fis
+    fis r
+    gis h %80
+    a!4. cis8
+    d4 r
+    fis,2
+    g4 r
+    e2 %85
+    fis8 a4\sfE gis8
+    a4 h
+    a8 a4\sfE gis8
+    a4 d
+    cis e, %90
+    R2*2
+    e'2
+    R
+    cis %95
+    h
+    a!
+    a4 gis
+    a cis8 cis
+    d2 %100
+    cis4 cis8 cis
+    d2
+    cis4 cis
+    a2
+    a %105
+    gis4 h
+    a h
+    ais fis
+    fis r
+    R2*2 %111
+    a2
+    a4 cis
+    d r
+    a cis %115
+    d a
+    g4. a8
+    g4. a8
+    g2
+    g4 g %120
+    cis d
+    d cis
+    d r
+    R2*16 %139
+    fis,2\f %140
+    fis4 fis
+    g2
+    a4 cis
+    d a8 a
+    fis2 %145
+    g
+    fis4 e
+    fis e
+    fis e
+    fis r\fermata \bar "|." %150 finis
+  }
+}
