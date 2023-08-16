@@ -413,3 +413,56 @@ SanctusViolinoII = {
     <d fis,> r r2\fermata \bar "|." %36 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoBenedictus
+    g'4.(\f a16 g) g8-! h-! d-! r
+    a4.( h16 a) \parOn a8-\parenthesize-! a-! \parOff c-\parenthesize-! r
+    d,4 d e4. a8
+    g h, a c h r g'4~\p
+    g8 a g a g r g4~ %5
+    g8 a g a h h c c
+    h h c c \slurDashed h16( h' a g) fis( a g fis) \slurSolid
+    e( cis d fis) g( e fis d) \once \slurDashed e(\f cis a) a d8. h16
+    cis8 a16 a h8. gis16 a8 cis,(\p d e)
+    fis4( g fis) r %10
+    fis8 fis g g fis fis r4
+    ais h8 cis ais h r4
+    gis a8 h gis a r cis\f
+    e4 d8 h16 g fis8 e a fis'
+    e4 d8 cis h ais g-\critnote fis %15
+    e4 fis8 g fis4 e
+    fis g8 e fis8. d'16 e8 e
+    fis a4 g fis e8
+    e16 e e e d d d d h h h g fis8 e
+    fis4 a a8 \once \slurDashed h16( g) fis8 e %20
+    fis a4\fpE h8 a4 a
+    h g8( a16 g) fis4 g8 h
+    g4 fis r2
+    d2 fis8 g r4
+    d2 fis8 g h[\cresc c] %25
+    d( c) \slurDashed f([\f e]) d-! e-! f([ e]) \slurSolid
+    d e d dis e16( h e d) cis8. cis16
+    d a d c h8. h16 c8 gis a4~
+    a8 g e e fis fis e \tuplet 3/2 8 { e16 g b }
+    a8 fis e \tuplet 3/2 8 { e16 g b } a8 fis(\pE g a) %30
+    \once \slurDashed h4( c h) r
+    h8 h c c h h r4
+    dis( e8 fis) dis-! e-! r4
+    cis( d8 e) cis-! d-! a16(\f d fis a)
+    a4 g8 e16 c h8 a h h16( g') %35
+    a4 g8 fis e dis e h
+    a4 h8 c h4 c
+    h8 h b g h h4 a8
+    g r d'4~ d8 c h a
+    h d16. g32 h16. h32 a8 r16. g,32 h16. e32 g16. g32 fis8 %40
+    r16. e,32 g16. c32 e16. e32 d8 cis \tuplet 3/2 8 { a'16 fis c } h8 \tuplet 3/2 8 { g'16 d h }
+    a8 r a8. a16 h8 r d8. d16
+    e8 r e8. e16 c8 h a4
+    h8 h \tuplet 3/2 8 { d16 e d c[ h a] } h8 h \tuplet 3/2 8 { d16[ e d] c h a }
+    h8 c h c h4 <h d,> %45
+    <g g,>2 r\fermata \bar "|." %46 finis
+  }
+}

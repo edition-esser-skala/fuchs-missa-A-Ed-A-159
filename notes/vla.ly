@@ -411,3 +411,56 @@ SanctusViola = {
     a r r2\fermata \bar "|." %36 finis
   }
 }
+
+BenedictusViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoBenedictus
+    d2~\f d8 d d r
+    d2~ d8 d d r
+    d4 g, g4. e'8
+    d r d r d r d4\p
+    d d8 d d r d4 %5
+    d d8 d d4 c8 a
+    h g' c, a h e a, a'
+    a a4 a8 a,\f a' gis8. gis16
+    a8 cis,16 cis f8. d16 cis8 a(\p h cis)
+    d4( e d) r %10
+    d8 d e e d d^\critnote r4
+    fis4. g8 fis fis r4
+    e4. fis8 e e r e\f
+    a4. h8 a4 a8 a
+    a4. g8 fis e d c! %15
+    h b a h a4 a
+    a a'8 a a4 cis,8 cis
+    d d'4 e8 cis d h cis
+    cis16 cis cis cis h h h h h h h h a8 a
+    a4 a, a8 g16( h) a8 a %20
+    a fis'4\fp gis8 a4 r
+    g d2 d4
+    d2 r
+    h4 c8( h) d d r4
+    h c8( h) d d g[\crescE g] %25
+    g g r c,16(\fE e) g8 g r c,16(\f e)
+    g8 g a4 h8 h a4
+    a8 a g4 g8 e e4
+    d e8 cis? a a g g
+    fis a g g a d(\p e fis) %30
+    g4( a g) r
+    g8 g a a g g r4
+    h4.( c8) h h r4
+    a4. h8 a a r a\f
+    d,4. e8 d4 d8 d %35
+    d'4. c8 h a g f
+    e es d e d4 a
+    g8 g' g, g g' g4 d8
+    h r d a h c16( e) d8 d
+    d r d a h r h' h %40
+    g r g g e a g g
+    fis r d8. d16 d8 r d8. d16
+    c8 r a'8. a16 d8 d, d4
+    d8 d a a h d a a
+    h a' g a g4 d %45
+    d2 r\fermata \bar "|." %46 finis
+  }
+}

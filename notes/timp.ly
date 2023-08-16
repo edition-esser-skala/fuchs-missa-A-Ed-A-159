@@ -257,3 +257,21 @@ SanctusTimpani = {
     R1\fermata \bar "|." %36 finis
   }
 }
+
+BenedictusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoBenedictus
+    R1*7 %7
+    r2 g8\fE r g g16 g
+    g8 r g g16 g g4 r
+    R1*6 %15
+    r2 g4\fE g
+    c c8 c c4 c8 c
+    c4 r r2
+    r r4 g8 g
+    c4 r r2 %20
+    R1*25 %45
+    R1\fermata \bar "|." %46 finis
+  }
+}

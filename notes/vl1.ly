@@ -411,3 +411,56 @@ SanctusViolinoI = {
     d, r r2\fermata \bar "|." %36 finis
   }
 }
+
+BenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoBenedictus
+    h'4.(\f \grace d32 c16 h) h8-! g'-! h-! r
+    c,4.( \grace e32 d16 c) c8-! fis-! a-! r
+    h,8.( c32 d) g,8.( a32 h) e,8 g'4 e16 c
+    h8 d fis, a g16 d\p g a h4~
+    h16 g( fis a) \once \slurDashed g( h d c) h d,( g a) h4~ %5
+    h16 g( fis a) g( h d c) h( d g fis) e( c a' fis)
+    g( d g fis) e( c a' fis) g( h a g) fis( a g fis)
+    e( cis d fis) g( e fis d) e(\f cis a) a f'8. f16
+    e( cis a) a d8. h16 cis a a\p a a a a a
+    a4.( \grace cis32 h16-\critnote a) a8 a'~ a16 g32( fis e[ d cis h]) %10
+    a8 a16. a32 a8( \grace cis32 h16 a) a8 a'4( fis16 d)
+    cis4 d8 e cis d fis16( h) h( d)
+    h,4 cis8 d h cis cis16(\f e) e( a)
+    g!4 fis8 e d cis d16( a fis d)
+    g'4 fis8 e d cis h a! %15
+    gis g fis16( d' h e) d4 cis
+    d16( a d fis) e( cis a cis) d( a d fis) g( e a g)
+    \once \slurDashed fis( a d cis) h4 a g
+    fis16 fis fis fis fis fis fis fis e8.( g32 e) d8 cis
+    d16( fis, a d) e16.( fis32 g16. a32) fis16( d h e) d8 cis %20
+    d d4\fp \appoggiatura f32 e16 d cis8 a' c, \appoggiatura e32 d16 c
+    h8 g' h, \appoggiatura d32 c16 h a4 h8 d
+    h4 a16( a') a-! cis,-! d( fis) a-! cis,-! e( d c a)
+    g4 \appoggiatura h16 a8 g \appoggiatura d'16 c8 h h'16( g d h)
+    g4 \appoggiatura h16 a8 g \appoggiatura d'16 c8[ h] \appoggiatura e16 d8\cresc c %25
+    \appoggiatura g'16 f8 e \appoggiatura h'16 a8([\f g)] h[-! c]-! \appoggiatura h16 a8( g)
+    h8^\critnote c a8. a16 gis8 gis a16 e a g
+    fis!8 fis g16 d g f e8 d cis4
+    c8 h a g fis! \tuplet 3/2 8 { a'16 fis d } b'8 cis,
+    d \tuplet 3/2 8 { a'16 fis d } b'8 cis, d16 d d\p d d d d d %30
+    d4.( \grace fis32 e16 d) d8 d'~ d16 c32( h a[ g fis e])
+    d8 d16. d32 d8 \appoggiatura fis32 e16 d d8 h'~ h16 g a h
+    \once \slurDashed fis4( g8 a) fis-! g-! h,16( e g h)
+    e,4( fis8 g) e-! fis-! a,16(\f d fis a)
+    c!4 h8 a g fis \once \slurDashed g16( d g h) %35
+    c4 h8 a g fis e d!
+    cis c h16( g' e! a) g4 fis
+    g16 g, g' g g[ a] \tuplet 3/2 8 { b? g e } d8 d4 fis,8
+    g g'16. h32 a16. h32 c16. d32 h16( g e a) g8 fis
+    g16. h,32 d16. g32 h16. h32^\critnote d8 r16. g,,32 h16. e32 g16. g32 h8 %40
+    r16. e,,32 g16. c32 e16. e32 g8 cis, \tuplet 3/2 8 { a'16 fis c } h8 \tuplet 3/2 8 { g'16 d h }
+    a8 \tuplet 3/2 8 { d,16 fis a } d8. d16 h8 \tuplet 3/2 8 { g16 h d } g8. g16
+    e8 \tuplet 3/2 8 { g16 e c } c'8. c16 a8 g4 fis8
+    \tuplet 3/2 8 { g16 d' c h[ a g] } fis4 \tuplet 3/2 8 { g16 d' c h[ a g] } fis4
+    \tuplet 3/2 8 { g16 d h' a[ g fis] g d h' a[ g fis] } g4 <g h,> %45
+    <g, g,>2 r\fermata \bar "|." %46 finis
+  }
+}
